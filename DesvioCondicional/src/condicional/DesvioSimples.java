@@ -8,4 +8,5 @@ public class DesvioSimples {
             System.out.println("Usuário menor de idade com " + idade + " anos");
         }
     }
+    
 }
