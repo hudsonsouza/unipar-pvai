@@ -6,7 +6,7 @@ public class OlaMundo {
         System.out.println("Mauro Pedreira");
         System.out.println("Paranavaí-PR");
         int dia, hj=8, ontem=5;
-        dia = ontem - hj;
+        dia = hj - ontem;
         System.out.println("Se passaram " + dia + " dias!");
     }
 }
