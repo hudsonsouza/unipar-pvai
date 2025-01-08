@@ -10,11 +10,11 @@ public class L1Ex05 {
         boolean autenticacao = false;
 
         for (int i = 0; i < 3; i++) {
-            System.out.print("Digite sua senha...: ");
+            System.out.print("\nDigite sua senha...: ");
             senhaUsuario = input.nextLine();
 
             if (senha.equals(senhaUsuario)) {
-                System.out.println("ACESSO PERMITIDO!");
+                System.out.println("\nACESSO PERMITIDO!");
                 autenticacao = true;
                 break;
             } else {
@@ -24,7 +24,7 @@ public class L1Ex05 {
         }
 
         if (autenticacao == false) {
-            System.out.println("Limite de 3 tentativas esgotadas.");
+            System.out.println("\nLimite de 3 tentativas esgotadas.");
             System.out.println("### CARTÃO BLOQUEADO ###");
         }
 
